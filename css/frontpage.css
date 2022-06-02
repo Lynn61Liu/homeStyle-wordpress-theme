@@ -1,0 +1,148 @@
+.features-section{
+    color: white;
+    display: flex;
+    background-color: #EA4F5F;
+}
+.features-wrap{  
+    display: flex;
+
+}
+
+section{
+    padding: 20px 30px 10px 60px ;
+}
+
+.features-content{
+    padding-left: 10px;
+}
+.features-content h3{
+    margin: 0;
+    padding: 0;
+    text-transform:uppercase;
+}
+.features-content p{
+    font-size: 12px;
+}
+.features-content a{
+    font-size: 11px;
+    color:white;
+    opacity: 0.7;
+}
+.moreicon{
+    width: 11px;
+}
+
+.projects-section{
+    color:#797979;
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.projects-image{
+    display: flex;
+   justify-content:center;
+    padding: 5px;
+    border:1px solid whitesmoke;
+}
+.projects-content{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.projects-content h3{
+    margin: 0;
+    padding: 0;
+    text-transform:capitalize;
+    margin-top: 10px;
+}
+.projects-content p{
+    font-size: 11px;
+}
+.red-btn {
+    text-transform:capitalize;
+    background-color:  #EA4F5F;
+    padding: 8px;
+    width: 50px;
+    color:white;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.wlcome-warp{
+    display: flex;
+    color:#7979799c;
+    /* opacity: 0.6; */
+}
+.wlcome-warp h2{
+    font-size: 30px;
+    color:#EA4F5F;
+   margin: 0;padding: 0;
+   margin-top: 10px;
+
+}
+.wlcome-warp div:first-child{
+    width: 90%;
+}
+.wlcome-warp div:last-child{
+    width: 10%;
+   /* background-color: pink; */
+   display: flex;
+   margin-top: auto;
+   justify-content: end;
+ 
+}
+.welcome-btn{
+    width: 80px;
+    height: 20px;
+}
+
+.wlcome-warp div:first-child p:nth-child(3){
+
+    font-size: 24px;
+
+}
+.wlcome-warp div:first-child p:nth-child(4){
+  margin-top: 10px;
+    font-size: 10px;
+}
+
+.half-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.team-warp{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr;
+}
+.team-content h3{
+    color:#EA4F5F;
+    font-size: 12px;
+}
+
+.wp-block-video video {
+   width: auto;
+}
+
+.clients-warp{
+    margin-top: 30px;
+}
+.clients-section{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.slideshow{
+    position: relative;
+    background-color: #333333;
+}
+
+
+.splide__slide{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+}
